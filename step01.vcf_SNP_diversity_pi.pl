@@ -89,7 +89,7 @@ while (<VCF>) {
                         my $freq2=$freq{$mint};
                         my $num=$freq1+$freq2;
                         my $pi=2*$freq1*$freq2/($num*($num-1));
-                        push @popdiv,"1|$pi|$freq1:$freq2";
+                        push @popdiv,"1|$pi|$freq1:$freq2";   ########### snp tag|pi|freq1 freq2
 #                       print "2\t$pop\t$chr\t$pos\t@basenum\t$nums\t$pi\t$num\n";
                 }
         }
