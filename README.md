@@ -1,2 +1,2 @@
 # Walnut
-Walnut Population diversity
+Perl scripts for Walnut Population diversity
